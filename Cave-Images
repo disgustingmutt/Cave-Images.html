@@ -10,11 +10,11 @@ a[href$="211453"]>div.cave-grid>img {
 	content: url('https://i.ibb.co/Kkx779k/IMG-7338.jpg') !important
 }
 
-a[href$="393587"]div.cave-grid>img {
+a[href$="393587"]>div.cave-grid>img {
   content: url('https://i.ibb.co/RphKnYQ9/IMG-7339.jpg')
 }
 
-a[href$="353211"]div.cave-grid>img {
+a[href$="353211"]>div.cave-grid>img {
   content: url('https://i.ibb.co/jkxqgx96/IMG-7341.jpg')
 }
 
