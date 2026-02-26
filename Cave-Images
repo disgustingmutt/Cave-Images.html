@@ -1,37 +1,50 @@
-/* CAVE / MOUND IMAGES */
-
-
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://i.ibb.co/cStxJ884/IMG-7343.jpg') !important
-}
-
-
-a[href$="211453"]>div.cave-grid>img {
-	content: url('https://i.ibb.co/Kkx779k/IMG-7338.jpg') !important
-}
-
-a[href$="393587"]>div.cave-grid>img {
-  content: url('https://i.ibb.co/RphKnYQ9/IMG-7339.jpg')
-}
-
-a[href$="353211"]>div.cave-grid>img {
-  content: url('https://i.ibb.co/jkxqgx96/IMG-7341.jpg')
-}
-
-a[href$="lionoverview.php?id=271220"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://i.ibb.co/7x8spg0M/IMG-7344.jpg') !important
-}
-
-
-a[href$="unsorted.php?id=271220"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://i.ibb.co/s9cQ75QP/IMG-7342.jpg') !important
-}
-
-
-.mound-grid img /* Mound(s) */ {
-	background: url("IMAGE URL");
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cave Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cave & Mound Images</h1>
+    
+    <section class="gallery">
+        <a href="?id=211453">
+            <div class="cave-grid">
+                <img alt="Cave Image 211453">
+            </div>
+        </a>
+        
+        <a href="?id=393587">
+            <div class="cave-grid">
+                <img alt="Cave Image 393587">
+            </div>
+        </a>
+        
+        <a href="?id=353211">
+            <div class="cave-grid">
+                <img alt="Cave Image 353211">
+            </div>
+        </a>
+        
+        <a href="lionoverview.php?id=271220">
+            <div class="cave-grid">
+                <img alt="Pride Overview">
+            </div>
+        </a>
+        
+        <a href="unsorted.php?id=271220">
+            <div class="cave-grid">
+                <img alt="Unsorted">
+            </div>
+        </a>
+    </section>
+    
+    <section class="mound-section">
+        <div class="mound-grid">
+            <img alt="Mound">
+        </div>
+    </section>
+</body>
+</html>
